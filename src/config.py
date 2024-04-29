@@ -9,7 +9,9 @@ config = {
         "gradient": 0.2, # Steigung umrechnung Rohdaten mV in mL/min 
         "y-axis":   0,  # Y-Achsenabschnitt umrechnung Rohdaten
         "x": 50,    # Position in Gui
-        "y": 20     # Position in Gui
+        "y": 20,     # Position in Gui
+        "permissible_deviation": 0.1,
+        "last_deviation": 10 
     },
     
     "MFC_O2": { 
@@ -22,6 +24,8 @@ config = {
         "gradient": 0.5,
         "y-axis":   0,
         "x": 50,
-        "y": 20
+        "y": 20,
+        "permissible_deviation": 0.1,
+        "last_deviation": 10 
     }
 }
